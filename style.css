@@ -29,7 +29,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #2d2d30;
-    background: linear-gradient(225deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url("longqi.gif");
+    background: linear-gradient(225deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url("images/longqi.gif");
     background-size: cover;
     color: #FDFDFE;
     text-align: center;
