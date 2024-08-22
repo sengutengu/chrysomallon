@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.7rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+a { 
+    color:orange;
+    text-decoration:none;
+}
+
+/* Title page */
+#main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d30;
+    background: linear-gradient(225deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%), url("longqi.gif");
+    background-size: cover;
+    color: #FDFDFE;
+    text-align: center;
+}
+
+#title {
+    font-weight: 400;
+    font-size: 70px;
+    font-style: italic;
+}
+
+#subtitle {
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0 0 80px 0;
+}
+
+/* subsequent sections */
+
+section {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    position: relative;
+    width: 1400px;
+}
+
+.sticky-container {
+    position: sticky;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 75vh;
+    padding: 100px 40px 0px 0px;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+img {
+    display: block;
+}
+
+.steps {
+    position: relative;
+    padding-top: 100px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.steps:last-child {
+    text-align: center;
+}
+.step {
+    padding: 100px 0 200px 0;
+    opacity: 0;
+}
+
+.step p {
+    background-color: #2d2d30;
+    padding: 20px;
+    color: white;
+}
+.step.active {
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+
+#anatomy {
+    padding-top: 0;
+}
+
+/* anatomy */
+#anatomy img {
+    margin-left: 0;
+    margin-right: auto;
+    width: 50%;
+    padding: 5%;
+}
+
+#endosymbiosis img, #sclerite img {
+    margin-left: 0;
+    margin-right: auto;
+    height:500px;
+}
+
+.img-stack {
+    position: relative;
+}
+
+.img-stack img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* map */
+#map { 
+    height: 500px;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    border:4px solid red;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.leaflet-popup-content, .leaflet-tooltip {
+    font-size: 1.5em !important;
+}
+
+.layer {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.metal {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#introduction {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#introduction p {
+    padding-bottom: 1em;
+}
+
+.step_img {
+    max-width: 75%;
+    margin: 0 auto;
+}
