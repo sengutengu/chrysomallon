@@ -1,0 +1,17 @@
+{
+  "kairei": {
+    "coords": [-25.319444, 70.04],
+    "direction": "top",
+    "east": true
+  },
+  "solitaire": {
+    "coords": [-19.545, 65.85],
+    "direction": "top",
+    "east": true
+  },
+  "longqi": {
+    "coords": [-37.7838, 49.6494],
+    "direction": "top",
+    "east": false
+  }
+}

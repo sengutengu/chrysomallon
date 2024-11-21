@@ -1,0 +1,41 @@
+{
+  "ridges": {
+    "carlsberg": {
+      "coords": [5.799063, 61.811835],
+      "content": "Carlsberg",
+      "direction": "right"
+    },
+    "cir": {
+      "coords": [-13.669079, 67.399708],
+      "content": "Central Indian",
+      "direction": "right"
+    },
+    "swir": {
+      "coords": [-35.05078945, 54.94630462],
+      "content": "Southwest Indian",
+      "direction": "left"
+    },
+    "seir": {
+      "coords": [-35.343472, 79.011726],
+      "content": "Southeast Indian",
+      "direction": "right"
+    }
+  },
+  "vents": {
+    "kairei": {
+      "coords": [-25.319444, 70.04],
+      "content": "Kairei",
+      "direction": "top"
+    },
+    "solitaire": {
+      "coords": [-19.545, 65.85],
+      "content": "Solitaire",
+      "direction": "top"
+    },
+    "longqi": {
+      "coords": [-37.7838, 49.6494],
+      "content": "Longqi",
+      "direction": "top"
+    }
+  }
+}

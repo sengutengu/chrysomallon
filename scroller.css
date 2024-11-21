@@ -1,0 +1,84 @@
+/*-------------------------------------------*\ 
+  scroller.css
+  
+  ORGANIZATION:
+      div.scroller
+      ├── div.sticky-container
+      │   ├── h2
+      │   ├── p
+      │   └── div.img-stack
+      │       ├── img.layer
+      │       └── ...
+      └── div.steps
+          ├── div.step
+          └── ...
+\*-------------------------------------------*/
+
+.scroller {
+  position: relative;
+}
+
+.scroller .sticky-container {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  height: 75vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.img-stack {
+  position: relative;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.img-stack img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 95%;
+  max-height: 70vh;
+}
+
+.img-stack img.layer {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.img-stack img.visible {
+  opacity: 1;
+}
+
+.scroller .steps {
+  margin-left: 50%;
+  position: relative;
+  padding-top: 100px;
+  width: 50%;
+}
+
+.steps .step {
+  padding-bottom: 200px;
+  opacity: 50%;
+}
+
+.steps .step.active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.steps .step:last-child {
+  text-align: center; /* for the bottom arrows */
+}
+
+.steps .step p {
+  background-color: #f0ead6;
+  padding: 30px;
+  color: black;
+}
+
+.steps .step .step-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+}
