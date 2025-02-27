@@ -9,8 +9,10 @@
 body {
   box-sizing: border-box;
   font-size: 1.2em;
-  font-family: "PT Sans", serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background-color: black;
+  color: white;
 }
 
 a {

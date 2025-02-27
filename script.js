@@ -31,8 +31,6 @@ const sclerite_stack = [
   sclerite_final,
 ];
 
-/* It's amazing how there's no straightforward 
-answer online for importing a JSON file */
 async function getJSON(url) {
   let response = await fetch(url);
   json = await response.json();
